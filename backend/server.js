@@ -55,6 +55,8 @@ app.get("/api/productos", async (req, res) => {
   }
 });
 
+//JOSE
+
 // Obtener un producto por ID
 app.get("/api/productos/:id", async (req, res) => {
   const {id} = req.params;
